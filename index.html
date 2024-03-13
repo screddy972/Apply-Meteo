@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Application méteo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="flex">
+      <img src="/src/imge/Thermometer.png" alt="Thermometer.png" />
+      <p class="couleurb caractere">Méteo App</p>
+    </div>
+    <div class="flex">
+      <div>
+        <input type="text" placeholder="Rechercher une ville..." id="inputCity"></input>
+      </div>
+      <button type="submit"></button>
+      <div>
+        <img class="couleurSvg" src="/src/imge/Vector.png" alt="vector.png" />
+      </div>
+    </div>
+
+  </header>
+
+  <div class="couleurSvg marge">
+    <div class="flex1">
+      <div id="city" class="villeCaractere "></div>
+      <p id="date" class="datechara"></p>
+    </div>
+    
+    <div class="columgr datechara">
+
+      <div >
+        <img class="margeNu" src="/src/imge/03d@2x.png" alt="nuage"></div>
+        <div id="temp" class="villeCaractere"></div>
+        <p class="caracternu">Nuageux</p>
+
+          <div class="flex3" >
+            <div class= "flex2 margeNu">
+            <div><img src="/src/imge/wind.png" alt="vent "></div>
+            <p>vent :</p>
+            <div id="wind" ></div>
+          </div>
+    
+          
+            <div class="flex2">
+              <div><img src="/src/imge/humidity.png" alt="humidite"></div>
+              <p>humidité :</p>
+              <div id="humidity" ></div>
+            </div>
+    
+            <div class="flex2">
+              <div><img src="/src/imge/rain.png" alt="pluie"></div>
+              <p>precipitation :</p>
+              <div id="pluie"></div>
+    
+            </div></div>
+      
+     
+        
+   
+    </div>
+    
+
+
+  </div>
+</body>
+<script src="apps.js"></script>
+
+</html>

@@ -1,0 +1,94 @@
+*{
+ margin: 0;
+ padding: 0;
+
+}
+
+
+
+.couleurSvg {
+  background-color: cornflowerblue;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 64px;
+}
+
+.couleurb {
+  color: cornflowerblue;
+}
+
+.flex {
+  display: flex;
+  gap: 32px;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  margin: 0 30px;
+}
+
+.caractere {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.marge {
+  margin-left: 150px;
+  margin-right: 70%;
+  padding: 15px;
+  
+
+}
+
+.villeCaractere {
+  display: flex;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  
+}
+
+.datechara{
+  color: white;
+}
+
+.columgr{
+display: flex;
+flex-direction: column;
+  align-items: center;
+ 
+
+
+} 
+.flex2{
+  display: flex;
+  gap: 8px;
+  justify-content:space-between;
+
+  
+ 
+  
+
+}
+.margeNu{
+  margin-top: 64px;
+
+}
+
+.caracternu{
+  font-size: larger;}
+
+
+  .flex3{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
